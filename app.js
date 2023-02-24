@@ -3,7 +3,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const Cors = require('cors');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.text({type: 'text/plain'}))
@@ -17,8 +16,6 @@ app.use(express.static('public'));
 
 app.use(express.json());
 
-
-app.use(Cors())
 
 const connectDB = require('./config/db');
 
