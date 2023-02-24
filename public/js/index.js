@@ -20,7 +20,7 @@ const progressBar = document.querySelector(".progress-bar");
 
 const percentDiv = document.querySelector("#percent");
 
-const host = "https://easy-share-ydow.onrender.com";
+const host = "https://easy-share-files-ydow.onrender.com";
 const uploadURL = `${host}/api/files`;
 const emailURL = `${host}/api/files/send`;
 
